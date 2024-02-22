@@ -1,125 +1,229 @@
-@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Martel+Sans:wght@600&family=Poppins&family=Rubik:ital,wght@0,300;1,700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Martel+Sans:wght@600&family=Poppins&family=Rubik:ital,wght@0,300;1,700&display=swap");
 
 body {
-    background-color: black;
+  background-color: black;
 }
 
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: 'Poppins', sans-serif
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
 }
 
-
 .main {
-    background-image: url(IMAGES/bg.jpg);
-    background-position: center center;
-    background-size: max(1200px, 100vw);
-    background-repeat: no-repeat;
-    height: 100vh;
-    position: relative;
+  background-image: url(IMAGES/bg.jpg);
+  background-position: center center;
+  background-size: max(1200px, 100vw);
+  background-repeat: no-repeat;
+  height: 100vh;
+  position: relative;
 }
 
 .main .box {
-    width: 100%;
-    height: 100vh;
-    opacity: 0.69;
-    position: absolute;
-    top: 0;
-    background-color: black;
+  width: 100%;
+  height: 100vh;
+  opacity: 0.69;
+  position: absolute;
+  top: 0;
+  background-color: black;
 }
 
 nav {
-    max-width: 60vw;
-    margin: auto;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    height: 62px;
+  max-width: 60vw;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 62px;
 }
 
 nav img {
-    color: red;
-    width: 114px;
-    position: relative;
-    z-index: 10;
+  color: red;
+  width: 114px;
+  position: relative;
+  z-index: 10;
 }
 
 nav button {
-    position: relative;
-    z-index: 10;
+  position: relative;
+  z-index: 10;
 }
 
 .hero {
-    font-family: 'Martel Sans', sans-serif;
-    height: calc(100% - 62px);
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    color: white;
-    position: relative;
-    gap: 23px;
-    padding: 0px 30px;
+  font-family: "Martel Sans", sans-serif;
+  height: calc(100% - 62px);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  color: white;
+  position: relative;
+  gap: 23px;
+  padding: 0px 30px;
 }
 
-.hero> :nth-child(1) {
-    font-weight: 900;
-    font-size: 48px;
-    text-align: center;
+.hero > :nth-child(1) {
+  font-weight: 900;
+  font-size: 48px;
+  text-align: center;
 }
 
-.hero> :nth-child(2) {
-    font-weight: normal;
-    font-size: 15px;
-    text-align: center;
+.hero > :nth-child(2) {
+  font-weight: normal;
+  font-size: 15px;
+  text-align: center;
 }
 
-.hero> :nth-child(3) {
-    font-weight: normal;
-    font-size: 15px;
-    text-align: center;
+.hero > :nth-child(3) {
+  font-weight: normal;
+  font-size: 15px;
+  text-align: center;
 }
-
 
 .btn {
-    background-color: rgba(216, 210, 210, 0.021);
-    color: white;
-    padding: 3px 8px;
-    font-weight: bold;
-    border: 1px solid white;
+  background-color: rgba(216, 210, 210, 0.021);
+  color: white;
+  padding: 3px 8px;
+  font-weight: bold;
+  border: 1px solid white;
 }
 
 .btn-red {
-    background-color: red;
-    color: white;
-    border: none;
-    padding: 5px 19px;
-    border-radius: 5px;
-    font-size: 17px;
+  background-color: red;
+  color: white;
+  border: none;
+  padding: 5px 19px;
+  border-radius: 5px;
+  font-size: 17px;
 }
 
 .hero-button {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 16px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 16px;
 }
 
 .main input {
-    padding: 7px 101px 8px 14px;
-    color: white;
-    font-weight: 900;
-    border: 1px solid rgba(228, 220, 220, 0.3);
-    border-radius: 4px;
-    font-size: 12px;
-    background-color: rgba(23, 23, 23, 0.2);
+  padding: 7px 101px 8px 14px;
+  color: white;
+  font-weight: 900;
+  border: 1px solid rgba(228, 220, 220, 0.3);
+  border-radius: 4px;
+  font-size: 12px;
+  background-color: rgba(23, 23, 23, 0.2);
 }
 
 .btn-red-sm {
-    background-color: red;
-    color: white;
-    border: 1px solid white;
+  background-color: red;
+  color: white;
+  border: 1px solid white;
 }
 
+.tv {
+  border-top: 7px solid rgb(79, 76, 76);
+  border-bottom: 7px solid rgb(79, 76, 76);
+  width: 100%;
+  height: 529px;
+  background-color: black;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.tv .tv-one h2 {
+  font-size: 48px;
+  color: white;
+  font-weight: 800;
+}
+
+.tv .tv-one p {
+  font-size: 24px;
+  font-weight: 500;
+  color: white;
+}
+
+.tv .tv-two img {
+  width: 400px;
+  height: 300px;
+}
+
+.download {
+  border-bottom: 7px solid rgb(79, 76, 76);
+  width: 100%;
+  height: 529px;
+  background-color: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 70px;
+}
+
+.download .down-one img {
+  width: 550px;
+  height: 400px;
+}
+
+.download .down-two h2 {
+  font-size: 48px;
+  color: white;
+  font-weight: 900;
+}
+
+.download .down-two p {
+  font-size: 24px;
+  font-weight: 500;
+  color: white;
+}
+
+.watch {
+    border-bottom: 7px solid rgb(79, 76, 76);
+    width: 100%;
+    height: 529px;
+    background-color: black;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+
+  .watch .watch-one h2{
+    font-size: 48px;
+    color: white;
+    font-weight: 900;
+  }
+
+  .watch .watch-one p {
+    font-size: 24px;
+    font-weight: 500;
+    color: white;
+  }
+
+  .profile {
+    border-bottom: 7px solid rgb(79, 76, 76);
+    width: 100%;
+    height: 529px;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+  }
+
+  .profile .profile-one img{
+    width: 500px;
+    height: 450px;
+  }
+
+  
+  .profile .profile-two h2{
+    font-size: 48px;
+    color: white;
+    font-weight: 900;
+  }
+
+  .profile .profile-two p{
+    font-size: 24px;
+    font-weight: 500;
+    color: white; 
+  }
